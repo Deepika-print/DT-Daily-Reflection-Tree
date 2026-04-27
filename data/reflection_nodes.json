@@ -1,0 +1,27 @@
+{
+  "start": {
+    "question": "Did you achieve your primary goal today?",
+    "options": {
+      "Yes": "success_path",
+      "No": "hurdle_path"
+    }
+  },
+  "success_path": {
+    "question": "Great! Was it due to a repeatable system or a one-time effort?",
+    "options": {
+      "Repeatable System": "system_optimization",
+      "One-time Effort": "capture_moment"
+    }
+  },
+  "hurdle_path": {
+    "question": "What was the primary blocker?",
+    "options": {
+      "External Factors": "resilience_check",
+      "Internal (Procrastination/Skill)": "growth_plan"
+    }
+  },
+  "system_optimization": { "question": "Final Reflection: How can you automate this system further?", "options": {} },
+  "capture_moment": { "question": "Final Reflection: What was the 'spark' that got it done?", "options": {} },
+  "resilience_check": { "question": "Final Reflection: What is one thing you controlled despite the chaos?", "options": {} },
+  "growth_plan": { "question": "Final Reflection: What single skill will you practice tomorrow?", "options": {} }
+}
