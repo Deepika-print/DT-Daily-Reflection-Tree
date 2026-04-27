@@ -23,7 +23,7 @@ During the design phase, I used AI to brainstorm reflection prompts. However, I 
 
 ### 3. Disagreements with AI
 The AI initially suggested a recursive function for the tree. I disagreed and chose a **While Loop with State Tracking** instead. 
-*Reasoning:* Recursion in a long reflection could lead to stack overflow issues and makes it harder to "save state" if this were to be expanded into a web app later.
+*Reasoning:* Recursion in a long reflection could lead to stack overflow issues and make it harder to "save state" if this were to be expanded into a web app later.
 
 ## 📁 Project Structure
 ```text
@@ -33,3 +33,15 @@ DailyReflectionTree/
 ├── data/
 │   └── reflection_nodes.json  # The decision tree structure
 └── README.md            # Documentation
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Deepika-print/DT-Daily-Reflection-Tree.git]
+2. **Navigate to the folder:**
+   ```Bash
+   cd DT-Daily-Reflection-Tree
+3. **Run the script:**
+
+   ```Bash
+   python main.py
